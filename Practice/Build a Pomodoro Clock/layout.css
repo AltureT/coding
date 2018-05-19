@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+    color: #FFF;
+    text-align: center;
+}
+
+.head{
+    font-size: 50px;
+}
+.timeCtrl{
+    margin: 40px 0;
+}
+.timeCtrl div{
+    margin: 5px 10px;
+}
+.blTime,.slTime{
+    font-size: 30px;
+}
+.content {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.timeCtrl div {
+    display: inline-block;
+}
+
+.hourglass {
+    margin: 40px auto;
+    display: block;
+    height: 300px;
+    width: 300px;
+    border: 3px solid #99CC00;
+    border-radius: 50%;
+    padding: 50px;
+    font-size: 40px;
+}
+.countdown{
+    margin-top: 55px;
+    font-size: 80px;
+}

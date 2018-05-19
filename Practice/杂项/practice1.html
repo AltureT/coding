@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QQ面板</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            position: relative;
+        }
+        div{
+            background-color: #454545;
+            width:300px;
+            height:150px;
+            display: block;
+            position: absolute;
+            margin: 5px;
+        }
+        ul{
+            position: absolute;
+            list-style: none;
+            width: 50px;
+            top:90px;
+            right:10px;
+        }
+        ul li{
+            text-align: center;
+            background-color: #a18aff;
+            height:30px;
+            line-height:30px;
+        }
+        div h1{
+            display: block;
+            width:150px;
+            height:50px;
+            background-color: #b9ff9c;
+            margin: 0 auto;
+        }
+        span{
+            display: block;
+            width:20px;
+            height:20px;
+            position: absolute;
+            top:-10px;
+            right:-10px;
+            text-align: center;
+            background-color: #5affa2;
+        }
+        .static{
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="practice1.css">
+    <script src="practice1.js"></script>
+
+</head>
+<body>
+    <div id="box">
+        <h1 class="title" id="title"></h1>
+        <ul id="nowon" class="nowon">
+            <li>在线</li>
+        </ul>
+        <ul class="static" id="static">
+            <li class="on">在线</li>
+            <li>Q我</li>
+            <li>离开</li>
+            <li>离线</li>
+        </ul>
+        <span>X</span>
+    </div>
+    <script src="load.js"></script>
+    <script src="practice1.js"></script>
+</body>
+</html>

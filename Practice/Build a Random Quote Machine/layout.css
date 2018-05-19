@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #333;
+}
+
+.box {
+    position: relative;
+    width: 500px;
+    margin: 8% auto 20px auto;
+}
+
+.quote-wrap {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.quote-wrap p {
+    font-size: 28px;
+    text-align: center;
+}
+
+.quote-wrap span {
+    display: block;
+    margin-top: 20px;
+    right: 50px;
+    text-align: right;
+}
+
+.quote-wrap .theme span {
+    display: inline;
+}
+
+.quote-wrap .button-wrap {
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.quote-wrap a {
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.quote-wrap button {
+    display: inline-block;
+    border-radius: 4px;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    float: right;
+    border: none;
+    color: #fff;
+    background-color: #333;
+    font-size: 14px;
+}
+
+.name {
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.name a {
+    color: #fff;
+}

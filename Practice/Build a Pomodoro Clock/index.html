@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Build a Pomodoro Clock</title>
+    <link rel="stylesheet" type="text/css" href="./layout.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="head">Pomodoro Clock</div>
+        <div class="timeCtrl">
+            <div class="breakLength">
+                <p>break length</p>
+                <div id="blminus">-</div>
+                <div class="blTime" id="blTime">5</div>
+                <div id="blplus">+</div>
+            </div>
+            <div class="sessionLength">
+                <p>session length</p>
+                <div id="slminus">-</div>
+                <div class="slTime" id="slTime">25</div>
+                <div id="slplus">+</div>
+            </div>
+        </div>
+        <div id="toggle" class="hourglass">
+            <div class="power">Session</div>
+            <div class="countdown" id="countdown">25</div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="./common.js"></script>
+</body>
+</html>

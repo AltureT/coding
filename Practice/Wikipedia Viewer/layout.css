@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #092B40;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrap {
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 4px solid #D96F32;
+    margin: 20px auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.search .ek {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 3px;
+    background-color: #D96F32;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 90%;
+    left: 90%;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.search input {
+    display: none;
+    height: 32px;
+    width: 0;
+    border: none;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+    line-height: 32px;
+    padding-right: 30px;
+    padding-left: 10px;
+    outline: none;
+    opacity: 0;
+    cursor: auto;
+}
+
+.search .eks {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.search .eks-before {
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: #D96F32;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 25%;
+    right: 30%;
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transition: all 0.25 ease 0.1s;
+    transition: all 0.25 ease 0.1s
+}
+
+.search .eks-after {
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: #D96F32;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    bottom: 25%;
+    right: 30%;
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.content li {
+    position: relative;
+    display: block;
+    min-height: 120px;
+    opacity: 0;
+    margin-top: 80%;
+    width: 100%;
+    background-color: #E6E6E7;
+    margin-bottom: 0.8em;
+}
+
+.content li:hover {
+    border-left: solid 5px #D86E31;
+    box-sizing: content-box;
+    margin-left: -5px;
+}
+
+.content li a {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content li h3 {
+    padding: 20px;
+}
+
+.content li p {
+    padding: 0 20px 20px 20px;
+}

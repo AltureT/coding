@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ecf0e7;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrap {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.header {
+    position: relative;
+}
+
+.header h1 {
+    background-color: #FF630E;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-indent: 2em;
+    font-size: 2.5em;
+    color: #E1E1E6;
+    font-weight: bold;
+}
+
+.header .menu {
+    position: absolute;
+    right: 0;
+    top: 1em;
+    color: #5C5457;
+    overflow: hidden;
+    width: 90px;
+}
+
+.header .menu>div {
+    position: relative;
+    right: 0;
+    margin-left: 80%;
+}
+
+.header .menu>div p {
+    background-color: #E1E1E6;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    text-indent: 1em;
+    margin: 5px 0;
+    font-size: 0.8em;
+    text-align: right;
+    font-weight: bold;
+}
+
+.menu .circle {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #5C5457;
+}
+
+.menu #current {
+    /*width: 40px;*/
+    margin-left: 0;
+}
+
+.wrap ul {
+    width: 100%;
+}
+
+.wrap ul li {
+    height: 40;
+    line-height: 40px;
+    padding: 20px;
+    border-top: 3px solid #ecf0e7;
+    border-bottom: 3px solid #ecf0e7;
+    color: #FFF;
+}
+
+.online {
+    background-color: #B8CCA6;
+    top: 25px;
+}
+
+.offline {
+    background-color: #4A5E82;
+    top: 50px;
+}

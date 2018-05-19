@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #161616;
+    color: #FFF;
+}
+
+.content {
+    width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.content ul {
+    width: 100%;
+    background-color: #000;
+    margin-top: 100%;
+    opacity: 0;
+}
+
+.content li {
+    opacity: 0;
+    margin-top: 500px;
+}
+
+.title {
+    font-size: 3.7em;
+    margin: 1em auto;
+}
+
+.city {
+    height: 30px;
+    line-height: 30px;
+    text-indent: 4px;
+    border: none;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn i {
+    font-weight: bold;
+}
+
+.content p {
+    margin: 0.5em auto;
+    font-size: 1.4em;
+}
