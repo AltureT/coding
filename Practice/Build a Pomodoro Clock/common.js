@@ -3,11 +3,11 @@ $(document).ready(function () {
     $("#blminus").on("click", function () {
         setBreakTime("-");
     });
-    $("#slminus").on("click", function () {
-        setSessionTime("-");
-    });
     $("#blplus").on("click", function () {
         setBreakTime("+");
+    });
+    $("#slminus").on("click", function () {
+        setSessionTime("-");
     });
     $("#slplus").on("click", function () {
         setSessionTime("+");
@@ -36,7 +36,7 @@ function setBreakTime(symbol) {
 
 //设置倒计时长
 function setSessionTime(symbol) {
-    var sessiontime = parseInt($("slTime").text());
+    var sessiontime = parseInt($("#slTime").text());
 
     if (symbol === "-") {
         if (sessiontime === 1) {
@@ -54,6 +54,4 @@ function toggleTime() {
     var breaktime = parseInt($("#blTime").text());
     var sessiontime = parseInt($("#slTime").text());
     var nowtime=parseInt($("#countdown").text());
-
-    
 }

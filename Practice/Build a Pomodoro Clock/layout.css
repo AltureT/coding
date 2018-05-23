@@ -45,3 +45,7 @@ body {
     margin-top: 55px;
     font-size: 80px;
 }
+
+.ctrl-button{
+    cursor: pointer;
+}
